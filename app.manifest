@@ -1,0 +1,9 @@
+{
+    "id"          : "sdk.user.autotypeexample",
+    "name"        : "AutoType Example",
+    "view"        : "appView.js",
+    "permissions" : [ ],
+    "categoryId"  : "WORKSPACE",
+    "date"        : "2016-10-20",
+    "version"     : "1.0.0"
+}

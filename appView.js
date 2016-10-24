@@ -10,9 +10,9 @@ define(function (require) {
     function doKeyboard(params = {}) {
         const config = new DialogConfig.KeyboardDialog(Object.assign({
             text: '',
-            autotype: {
-                engineName: 'sample',
-            },
+            // autotype: {
+            //     engineName: 'sample',
+            // },
             hide(ev, control, text, status, item) {
                 console.log(ev, control, text, status, item);
                 if (status === 'accept') {
@@ -57,7 +57,7 @@ define(function (require) {
                     click() {
                         doKeyboard({
                             autotype: {
-                                engineName: 'sample',
+                                // engineName: 'sample',
                                 placeholder: [{
                                     text:  'Home',
                                     value: {
